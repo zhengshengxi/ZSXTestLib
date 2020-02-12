@@ -1,0 +1,6 @@
+framework module ZSXTestLib {
+  umbrella header "ZSXTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

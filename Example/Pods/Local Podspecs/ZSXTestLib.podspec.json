@@ -1,0 +1,22 @@
+{
+  "name": "ZSXTestLib",
+  "version": "0.1.0",
+  "summary": "A short description of ZSXTestLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhengshengxi/ZSXTestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "314334043@qq.com": "314334043@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhengshengxi/ZSXTestLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZSXTestLib/Classes/**/*"
+}

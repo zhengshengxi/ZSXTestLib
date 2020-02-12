@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C0C986586FF55BC70A5202E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4D5122D2D8C4EEB0B67C5AAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C0C986586FF55BC70A5202E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4D5122D2D8C4EEB0B67C5AAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZSXTestLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSXTestLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		8F05E394C20B7C8BF0F1886E /* Pods-ZSXTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSXTestLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZSXTestLib_Tests/Pods-ZSXTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		96024228F6DA98545A692A8E /* Pods_ZSXTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSXTestLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		976BE7996736BED491441037 /* Pods-ZSXTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSXTestLib_Example.release.xcconfig"; path = "Target Support Files/Pods-ZSXTestLib_Example/Pods-ZSXTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DFD1EF46A3ED2EDE7EA6EC08 /* ZSXTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZSXTestLib.podspec; path = ../ZSXTestLib.podspec; sourceTree = "<group>"; };
+		DFD1EF46A3ED2EDE7EA6EC08 /* ZSXTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZSXTestLib.podspec; path = ../ZSXTestLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F5735029DDF7E041730EB998 /* Pods_ZSXTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSXTestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				8F05E394C20B7C8BF0F1886E /* Pods-ZSXTestLib_Tests.debug.xcconfig */,
 				6B62DCDFD789BDFD5B09DAFF /* Pods-ZSXTestLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E94639554E2FA02F324DD411 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -356,24 +355,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZSXTestLib_Tests/Pods-ZSXTestLib_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E94639554E2FA02F324DD411 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZSXTestLib_Example/Pods-ZSXTestLib_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZSXTestLib/ZSXTestLib.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZSXTestLib.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZSXTestLib_Example/Pods-ZSXTestLib_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
