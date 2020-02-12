@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZSXTestLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZSXTestLib.'
+  s.summary          = 'asd asdasd asdasdasd asdasdasdas ZSXTestLib.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description      = <<-DESC
-ZSXTestLib ZSXTestLib ZSXTestLib ZSXTestLib ZSXTestLib ZSXTestLib
+asd asdasd asdasdasd asdasdasdas asdfasdas adsdasdasd  ZSXTestLib
 DESC
 
   s.homepage         = 'https://github.com/zhengshengxi/ZSXTestLib'
