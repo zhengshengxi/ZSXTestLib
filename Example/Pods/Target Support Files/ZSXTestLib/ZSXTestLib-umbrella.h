@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZSXTestLibTool.h"
 
 FOUNDATION_EXPORT double ZSXTestLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZSXTestLibVersionString[];
